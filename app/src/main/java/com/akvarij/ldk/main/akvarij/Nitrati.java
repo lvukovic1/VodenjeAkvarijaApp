@@ -7,8 +7,6 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
-import android.widget.TextView;
-import android.widget.Toast;
 
 import com.akvarij.ldk.main.baza.NitratiBaza;
 import com.akvarij.ldk.main.glavna.R;
@@ -28,7 +26,7 @@ public class Nitrati extends AppCompatActivity {
     LineGraphSeries<DataPoint> series= new LineGraphSeries<>(new DataPoint[0]);
     NitratiBaza nitratiBaza;
     SQLiteDatabase sqLiteDatabase;
-    SimpleDateFormat sdf= new SimpleDateFormat("hh:mm:ss a");
+    SimpleDateFormat sdf= new SimpleDateFormat("w");
 
 
     @Override
@@ -36,15 +34,22 @@ public class Nitrati extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_nitrati2);
 
-        nitratiIzracunBtn = (Button) findViewById(R.id.nitratiIzracunBtn);
+        nitratiIzracunBtn = (Button) findViewById(R.id.TempIzracunBtn);
         nitratiUnos1 =  (EditText) findViewById(R.id.nitratiUnos1);
-        graph = (GraphView) findViewById(R.id.graph);
+        graph = (GraphView) findViewById(R.id.graphTemp);
 
 
         nitratiBaza = new NitratiBaza(this);
         sqLiteDatabase = nitratiBaza.getWritableDatabase();
 
+
+
+
+        
         graph.addSeries(series);
+
+
+
 
         exqInsert();
 

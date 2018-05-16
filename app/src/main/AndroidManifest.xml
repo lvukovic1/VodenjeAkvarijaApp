@@ -23,7 +23,13 @@
         <activity android:name=".Obavijesti" />
         <activity android:name="com.akvarij.ldk.main.izracuni.Litraza" />
         <activity android:name="com.akvarij.ldk.main.izracuni.Svjetlina" />
-        <activity android:name="com.akvarij.ldk.main.akvarij.Nitrati"></activity>
+        <activity android:name="com.akvarij.ldk.main.akvarij.Nitrati" />
+        <activity android:name="com.akvarij.ldk.main.akvarij.PHVrijednosti" />
+        <activity android:name="com.akvarij.ldk.main.akvarij.TemperaturnaVrijednost" />
+        <activity android:name="com.akvarij.ldk.main.financije.Kupljeno" />
+        <activity android:name="com.akvarij.ldk.main.financije.Prodano" />
+        <activity android:name="com.akvarij.ldk.main.flora_fauna.Ribe" />
+        <activity android:name="com.akvarij.ldk.main.flora_fauna.Biljke"></activity>
     </application>
 
 </manifest>

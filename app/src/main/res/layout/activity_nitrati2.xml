@@ -8,7 +8,7 @@
 
 
     <com.jjoe64.graphview.GraphView
-        android:id="@+id/graph"
+        android:id="@+id/graphTemp"
         android:layout_width="match_parent"
         android:layout_height="388dp"
         android:layout_marginBottom="8dp"
@@ -17,7 +17,7 @@
         tools:ignore="MissingConstraints" />
 
     <Button
-        android:id="@+id/nitratiIzracunBtn"
+        android:id="@+id/TempIzracunBtn"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginEnd="16dp"
@@ -40,8 +40,8 @@
         android:ems="10"
         android:hint="Vrijednost nitrata"
         android:inputType="textPersonName"
-        app:layout_constraintBottom_toTopOf="@+id/graph"
-        app:layout_constraintEnd_toStartOf="@+id/nitratiIzracunBtn"
+        app:layout_constraintBottom_toTopOf="@+id/graphTemp"
+        app:layout_constraintEnd_toStartOf="@+id/TempIzracunBtn"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 

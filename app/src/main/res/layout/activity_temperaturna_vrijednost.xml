@@ -6,4 +6,42 @@
     android:layout_height="match_parent"
     tools:context="com.akvarij.ldk.main.akvarij.TemperaturnaVrijednost">
 
+    <com.jjoe64.graphview.GraphView
+        android:id="@+id/graphTemp"
+        android:layout_width="match_parent"
+        android:layout_height="388dp"
+        android:layout_marginBottom="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        tools:layout_editor_absoluteX="0dp"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/TempIzracunBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginTop="32dp"
+        android:text="Izračunaj"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/TempUnos1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:ems="10"
+        android:hint="Temperaturna vrijednost"
+        android:inputType="textPersonName"
+        app:layout_constraintBottom_toTopOf="@+id/graphTemp"
+        app:layout_constraintEnd_toStartOf="@+id/TempIzracunBtn"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
 </android.support.constraint.ConstraintLayout>
