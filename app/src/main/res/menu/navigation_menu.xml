@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/nav_floraFauna"
+        android:icon="@mipmap/fish"
+        android:title="Pregled flore i faune" />
+
+    <item
+        android:id="@+id/nav_izracuni"
+        android:icon="@mipmap/calculator"
+        android:layout_width="wrap_content"
+        android:title="Izračunavanje" />
+
+    <item
+        android:id="@+id/nav_stanjeAkvarija"
+        android:icon="@mipmap/ic_timeline_black_24dp"
+        android:title="Praćenje stanja akvarija" />
+
+    <item
+        android:id="@+id/nav_pracenjeFinancija"
+        android:icon="@mipmap/ic_euro_symbol_black_24dp"
+        android:title="Praćenje financija" />
+
+    <item
+        android:id="@+id/nav_obavijesti"
+        android:icon="@mipmap/ic_alarm_black_24dp"
+        android:title="Obavijesti" />
+
+</menu>

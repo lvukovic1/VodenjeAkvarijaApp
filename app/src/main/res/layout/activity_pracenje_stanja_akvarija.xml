@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.akvarij.ldk.main.glavna.PracenjeStanjaAkvarija">
+
+    <Button
+        android:id="@+id/phBtn"
+        android:layout_width="176dp"
+        android:layout_height="wrap_content"
+        android:text="Unos PH vrijednosti"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="150dp" />
+
+    <Button
+        android:id="@+id/temperaturaBtn"
+        android:layout_width="177dp"
+        android:layout_height="67dp"
+        android:layout_marginTop="30dp"
+        android:text="Unos temperaturne vrijednosti vode"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/phBtn" />
+
+    <Button
+        android:id="@+id/nitratiBtn"
+        android:layout_width="179dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:text="Unos vrijednosti nitrata"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/temperaturaBtn" />
+</android.support.constraint.ConstraintLayout>
