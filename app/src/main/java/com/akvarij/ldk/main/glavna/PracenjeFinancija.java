@@ -6,6 +6,7 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
+import com.akvarij.ldk.main.financije.BZVZ;
 import com.akvarij.ldk.main.financije.Kupljeno;
 import com.akvarij.ldk.main.financije.Prodano;
 import com.akvarij.ldk.main.izracuni.Litraza;
@@ -32,7 +33,7 @@ public class PracenjeFinancija extends AppCompatActivity {
         prodano.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent startInetent = new Intent(getApplicationContext(), Prodano.class);
+                Intent startInetent = new Intent(getApplicationContext(), BZVZ.class);
                 startActivities(new Intent[]{startInetent});
             }
         });

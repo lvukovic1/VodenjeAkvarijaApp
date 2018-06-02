@@ -10,6 +10,8 @@ import android.os.Bundle;
 import android.view.MenuItem;
 
 import com.akvarij.ldk.main.baza.NitratiBaza;
+import com.akvarij.ldk.main.obavijest.Obavijest1;
+import com.akvarij.ldk.main.obavijest.ObavijestiVoda;
 
 
 public class MainActivity extends AppCompatActivity {
@@ -50,7 +52,7 @@ public class MainActivity extends AppCompatActivity {
                         startActivity(in);
                         break;
                     case(R.id.nav_obavijesti):
-                        in = new Intent(getApplicationContext(),Obavijesti.class);
+                        in = new Intent(getApplicationContext(),Obavijest1.class);
                         startActivity(in);
                         break;
                     case(R.id.nav_pracenjeFinancija):
