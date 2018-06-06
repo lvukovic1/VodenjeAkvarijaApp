@@ -4,7 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.akvarij.ldk.main.financije.ListDataActivity">
+    tools:context="com.akvarij.ldk.main.financije.ListDataActivity"
+    android:background="@drawable/riba2">
     <ListView
         android:layout_width="match_parent"
         android:layout_height="match_parent"

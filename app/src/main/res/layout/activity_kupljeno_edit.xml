@@ -4,7 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.akvarij.ldk.main.financije.KupljenoEdit">
+    tools:context="com.akvarij.ldk.main.financije.KupljenoEdit"
+    android:background="@drawable/riba2">
 
     <EditText
         android:id="@+id/editable_item"

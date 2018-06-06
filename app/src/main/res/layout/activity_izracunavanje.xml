@@ -4,7 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.akvarij.ldk.main.glavna.Izracunavanje">
+    tools:context="com.akvarij.ldk.main.glavna.Izracunavanje"
+    android:background="@drawable/riba">
 
     <Button
         android:id="@+id/IzracunBtn1"
