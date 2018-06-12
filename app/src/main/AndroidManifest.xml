@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.akvarij.ldk.main.glavna">
-<uses-permission android:name="com.android.alarm.permision.SET_ALARM"/>
+<uses-permission android:name="com.android.alarm.permission.SET_ALARM"/>
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -35,15 +35,7 @@
         <activity android:name="com.akvarij.ldk.main.financije.ListDataActivity" />
         <activity android:name="com.akvarij.ldk.main.financije.EditDataActivity" />
         <activity android:name="com.akvarij.ldk.main.financije.BZVZ" />
-        <activity android:name="com.akvarij.ldk.main.obavijest.ObavijestiVoda" />
         <activity android:name="com.akvarij.ldk.main.obavijest.Obavijest1" />
-        <activity android:name="com.akvarij.ldk.main.obavijest.Repeat">
-
-
-
-
-
-        </activity>
 
 
     </application>

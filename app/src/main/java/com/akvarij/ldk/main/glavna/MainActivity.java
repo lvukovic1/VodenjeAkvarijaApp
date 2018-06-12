@@ -1,7 +1,6 @@
 package com.akvarij.ldk.main.glavna;
 
 import android.content.Intent;
-import android.database.sqlite.SQLiteDatabase;
 import android.support.design.widget.NavigationView;
 import android.support.v4.widget.DrawerLayout;
 import android.support.v7.app.ActionBarDrawerToggle;
@@ -9,9 +8,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.MenuItem;
 
-import com.akvarij.ldk.main.baza.NitratiBaza;
 import com.akvarij.ldk.main.obavijest.Obavijest1;
-import com.akvarij.ldk.main.obavijest.ObavijestiVoda;
 
 
 public class MainActivity extends AppCompatActivity {

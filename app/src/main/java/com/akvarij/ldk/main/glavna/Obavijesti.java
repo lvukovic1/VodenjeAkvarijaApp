@@ -8,6 +8,6 @@ public class Obavijesti extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_obavijesti);
+        setContentView(R.layout.activity_obavijest1);
     }
 }
