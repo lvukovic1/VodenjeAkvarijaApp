@@ -7,12 +7,6 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
-import com.akvarij.ldk.main.financije.Prodano;
-import com.akvarij.ldk.main.flora_fauna.Biljke;
-import com.akvarij.ldk.main.flora_fauna.Ribe;
-
-import java.net.URI;
-
 public class PregledFloreFaune extends AppCompatActivity {
 
     @Override

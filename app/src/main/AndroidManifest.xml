@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.akvarij.ldk.main.glavna">
-<uses-permission android:name="com.android.alarm.permission.SET_ALARM"/>
+
+    <uses-permission android:name="com.android.alarm.permission.SET_ALARM" />
+
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -26,19 +28,13 @@
         <activity android:name="com.akvarij.ldk.main.akvarij.Nitrati" />
         <activity android:name="com.akvarij.ldk.main.akvarij.PHVrijednosti" />
         <activity android:name="com.akvarij.ldk.main.akvarij.TemperaturnaVrijednost" />
-        <activity android:name="com.akvarij.ldk.main.financije.Kupljeno" />
-        <activity android:name="com.akvarij.ldk.main.financije.Prodano" />
         <activity android:name="com.akvarij.ldk.main.flora_fauna.Ribe" />
         <activity android:name="com.akvarij.ldk.main.flora_fauna.Biljke" />
-        <activity android:name="com.akvarij.ldk.main.financije.KupljenoPrikaz" />
-        <activity android:name="com.akvarij.ldk.main.financije.KupljenoEdit" />
-        <activity android:name="com.akvarij.ldk.main.financije.ListDataActivity" />
-        <activity android:name="com.akvarij.ldk.main.financije.EditDataActivity" />
-        <activity android:name="com.akvarij.ldk.main.financije.BZVZ" />
         <activity android:name="com.akvarij.ldk.main.obavijest.Obavijest1" />
-
-
+        <activity
+            android:name="com.akvarij.ldk.main.financije.Main2Activity"
+            android:label="@string/title_activity_main2"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
     </application>
-
 
 </manifest>
