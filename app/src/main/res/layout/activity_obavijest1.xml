@@ -12,20 +12,38 @@
             android:id="@+id/hranjenje"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_alignBottom="@+id/textView4"
+            android:layout_alignBaseline="@+id/textView5"
             android:layout_alignParentEnd="true"
-            android:layout_marginEnd="27dp"
+            android:layout_marginEnd="13dp"
             android:text="POSTAVI" />
 
         <TextView
             android:id="@+id/textView4"
             android:layout_width="217dp"
             android:layout_height="32dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignStart="@+id/textView5"
+            android:layout_marginTop="120dp"
+            android:text="Alarm za čišćenje"
+            android:textSize="24sp" />
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="217dp"
+            android:layout_height="32dp"
             android:layout_alignParentStart="true"
             android:layout_alignParentTop="true"
             android:layout_marginStart="27dp"
             android:layout_marginTop="35dp"
-            android:text="Alarm za čišćenje"
+            android:text="Alarm za hranjenje"
             android:textSize="24sp" />
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/textView4"
+            android:layout_alignStart="@+id/hranjenje"
+            android:text="POSTAVI" />
 
 </RelativeLayout>

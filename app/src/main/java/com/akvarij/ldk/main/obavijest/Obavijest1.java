@@ -15,6 +15,7 @@ import android.widget.Button;
 
 import com.akvarij.ldk.main.glavna.R;
 
+import java.util.ArrayList;
 import java.util.Calendar;
 
 public class Obavijest1 extends AppCompatActivity {
@@ -32,8 +33,23 @@ public class Obavijest1 extends AppCompatActivity {
                 Intent intent = new Intent(AlarmClock.ACTION_SET_ALARM);
                 intent.putExtra(AlarmClock.EXTRA_HOUR,13);
                 intent.putExtra(AlarmClock.EXTRA_MINUTES,20);
-                intent.putExtra(AlarmClock.EXTRA_MESSAGE,"Hranjenje ribica");
-                intent.putExtra(AlarmClock.EXTRA_DAYS,30);
+                intent.putExtra(AlarmClock.EXTRA_MESSAGE,"Hranjenje ribica-mala količina");
+                startActivity(intent);
+            }
+        });
+
+        Button button2 =(Button) findViewById(R.id.button2);
+
+        button2.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                ArrayList<Integer> alarmDays= new ArrayList<Integer>();
+                alarmDays.add(Calendar.SATURDAY);
+                Intent intent = new Intent(AlarmClock.ACTION_SET_ALARM);
+                intent.putExtra(AlarmClock.EXTRA_DAYS, alarmDays);
+                intent.putExtra(AlarmClock.EXTRA_HOUR,15);
+                intent.putExtra(AlarmClock.EXTRA_MINUTES,30);
+                intent.putExtra(AlarmClock.EXTRA_MESSAGE,"Tjedno čišćenje akvarija");
                 startActivity(intent);
             }
         });
