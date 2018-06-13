@@ -26,20 +26,34 @@
 
         <Button
             android:id="@+id/btnAdd"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_width="101dp"
+            android:layout_height="43dp"
             android:layout_marginLeft="70dp"
-            android:text="Add" />
+            android:background="@drawable/buttonshape"
+
+            android:shadowColor="#A8A8A8"
+            android:shadowDx="0"
+            android:shadowDy="0"
+            android:shadowRadius="5"
+            android:text="Add"
+            android:textColor="#000000"
+            android:textSize="22sp" />
 
         <Button
             android:id="@+id/btnView"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_width="129dp"
+            android:layout_height="46dp"
             android:layout_alignParentEnd="true"
-            android:layout_marginEnd="71dp"
+            android:layout_marginEnd="70dp"
+            android:background="@drawable/buttonshape"
+
+            android:shadowColor="#A8A8A8"
+            android:shadowDx="0"
+            android:shadowDy="0"
+            android:shadowRadius="5"
             android:text="View Data"
-            android:layout_marginRight="71dp"
-            android:layout_alignParentRight="true" />
+            android:textColor="#000000"
+            android:textSize="22sp" />
 
     </RelativeLayout>
 </android.support.constraint.ConstraintLayout>

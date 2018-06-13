@@ -34,7 +34,7 @@ public class Svjetlina extends AppCompatActivity {
 
                 if (malocheckBox.isChecked()== true && srednjecheckBox.isChecked()==true || malocheckBox.isChecked()== true && punocheckBox.isChecked()==true
                         || srednjecheckBox.isChecked()== true && punocheckBox.isChecked()==true ){
-                    svjetlinaTextView.setText("Odaberite samo jedno od ponudenoga !");
+                    svjetlinaTextView.setText("Odaberite samo jedno od ponuđenoga !");
                 }
                 else if (malocheckBox.isChecked()== true) {
                     rezultat = svjetlina * 15;

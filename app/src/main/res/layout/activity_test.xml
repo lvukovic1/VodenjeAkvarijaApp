@@ -9,10 +9,18 @@
 
     <Button
         android:id="@+id/ribeBtn"
-        android:layout_width="142dp"
+        android:layout_width="198dp"
         android:layout_height="wrap_content"
-        android:layout_marginTop="180dp"
+        android:layout_marginTop="164dp"
+        android:background="@drawable/buttonshape"
+        android:shadowColor="#A8A8A8"
+        android:shadowDx="0"
+        android:shadowDy="0"
+
+        android:shadowRadius="5"
         android:text="Pregled Riba"
+        android:textColor="#000000"
+        android:textSize="20sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
@@ -25,5 +33,14 @@
         android:text="Pregled biljaka"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/ribeBtn" />
+        app:layout_constraintTop_toBottomOf="@+id/ribeBtn"
+
+        android:background="@drawable/buttonshape"
+        android:shadowColor="#A8A8A8"
+        android:shadowDx="0"
+        android:shadowDy="0"
+        android:shadowRadius="5"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        />
 </android.support.constraint.ConstraintLayout>
