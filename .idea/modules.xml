@@ -3,10 +3,8 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/VodenjeAkvarija.iml" filepath="$PROJECT_DIR$/VodenjeAkvarija.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/VodenjeAkvarijaApp.iml" filepath="$PROJECT_DIR$/.idea/VodenjeAkvarijaApp.iml" />
       <module fileurl="file://$PROJECT_DIR$/VodenjeAkvarijaApp.iml" filepath="$PROJECT_DIR$/VodenjeAkvarijaApp.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/VodenjeAkvarijaApp.iml" filepath="$PROJECT_DIR$/.idea/VodenjeAkvarijaApp.iml" />
-      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
     </modules>
   </component>

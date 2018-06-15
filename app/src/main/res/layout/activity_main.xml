@@ -8,6 +8,15 @@
     android:id="@+id/drawerLayout"
     android:background="@drawable/biljka">
 
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="10dp"
+        android:layout_height="32dp"
+        android:text="@string/dobrodo_li_u_aplikaciju_za_upravljanje_akvarijem"
+        android:textSize="25sp"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:textStyle="bold" />
 
 <android.support.design.widget.NavigationView
     android:id="@+id/nv1"
